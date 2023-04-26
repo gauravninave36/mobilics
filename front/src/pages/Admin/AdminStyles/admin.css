@@ -1,0 +1,150 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--bs-nav-pills-link-active-bg);
+}
+.nav-pills {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: rgb(13, 202, 240);
+}
+
+.off:hover {
+  color: rgb(13, 202, 240) !important;
+}
+.bar:hover {
+  color: rgb(13, 202, 240);
+}
+.nav-link {
+  color: black;
+}
+@media (max-width: 768px) {
+  .heading99 {
+    font-size: 3rem !important;
+  }
+  .headingsemi {
+    font-size: 2rem !important;
+  }
+  .side {
+    position: absolute;
+    animation: animateleft 0.4s;
+    animation-duration: 0.4s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animateleft;
+  }
+  .sidebar {
+    width: 45% !important;
+  }
+  .fa-xmark {
+    display: block !important;
+  }
+  .fa-xmark:hover {
+    color: red;
+  }
+  .close {
+    display: none !important;
+    width: 180px !important;
+  }
+  .homevideo {
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .time {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .side {
+    position: fixed;
+    width: 16.66% !important;
+    left: 0;
+  }
+  .table2 {
+    margin-left: 5.5% !important;
+    margin-right: 5.5% !important;
+  }
+  .table1 {
+    margin-left: 4% !important;
+    margin-right: 3% !important;
+  }
+  .heading99 {
+    margin-left: 2% !important;
+  }
+  .headingsemi {
+    margin-left: 2% !important;
+  }
+  .addbutton {
+    margin-right: 3% !important;
+  }
+}
+@media (min-width: 1300px) {
+  .homevideo {
+    width: 100vw !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .side {
+    position: fixed;
+    width: 25% !important;
+  }
+  .homevideo {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .heading99 {
+    font-size: 1.5rem !important;
+  }
+  .headingsemi {
+    font-size: 1.5rem !important;
+  }
+  .side {
+    position: fixed !important;
+    width: 25% !important;
+  }
+  .homevideo {
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading99 {
+    font-size: 1.5rem !important;
+  }
+  .headingsemi {
+    font-size: 1.5rem !important;
+  }
+  .side {
+    position: fixed !important;
+    width: 50% !important;
+    z-index: 9;
+  }
+  .bar {
+    display: inline-block !important;
+    position: fixed;
+    left: 5px;
+    top: 3px;
+  }
+  .off {
+    font-size: 25px !important;
+  }
+  .homevideo {
+    height: 100vh !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .homevideo {
+    height: 100vh !important;
+    left: -90%;
+  }
+}
